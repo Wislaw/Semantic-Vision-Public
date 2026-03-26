@@ -296,12 +296,6 @@ MIT License — see [LICENSE](LICENSE) for details.
 
 ---
 
-<div align="center">
-
-**Semantic Vision**
-
-*Because financial freedom shouldn't require perfect vision.*
+**Semantic Vision** — *Because financial freedom shouldn't require perfect vision.*
 
 [GitHub: @Wislaw](https://github.com/Wislaw/Semantic-Vision-Public) · [Twitter/X: DM open](https://x.com/VB_SemanticV)
-
-</div>
