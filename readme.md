@@ -87,7 +87,7 @@ Semantic Vision requires nothing from protocols. It deploys client-side, runs lo
 
 > **Screenshot 1 — Before Semantic Vision**
 >
-> *Image description: NVDA screen reader speech log on app.aave.com showing 14 consecutive entries reading "Niezaetykietowany" (Polish for "Unidentified") for any interactive buttons on the Aave lending interface. The user cannot determine which button Staking menu, Send token, Receive token. No accessible name exists on any interactive control.*
+> *Image description: NVDA screen reader speech log on app.aave.com showing entries reading "Niezaetykietowany" (Polish for "Unlabeled") for interactive buttons on the Aave lending interface. The user cannot determine which button is Staking menu, Send token, or Receive token. No accessible name exists on any interactive control.*
 
 ![Before: NVDA reads "Niezaetykietowany" multiple times on Aave v3. Not all buttons have an accessible name.](docs/screenshots/before-nvda.png)
 
@@ -95,9 +95,9 @@ Semantic Vision requires nothing from protocols. It deploys client-side, runs lo
 
 > **Screenshot 2 — After Semantic Vision**
 >
-> *Image description: NVDA screen reader speech log on the same app.aave.com page after Semantic Vision activation. All 14 interactive elements now have meaningful labels: "Staking menu button", "Send token button", "Receive token button". The aria-live region has announced "14 elements labeled successfully."*
+> *Image description: NVDA screen reader speech log on the same app.aave.com page after Semantic Vision activation. Interactive elements now have meaningful labels: "Staking menu button", "Send token button", "Receive token button". The aria-live region has announced "elements labeled successfully."*
 
-![After: All 14 Aave v3 buttons labeled - Staking menu, Send token, Receive token. Zero unidentified elements.](docs/screenshots/after-nvda.png)
+![After: Aave v3 buttons labeled - Staking menu, Send token, Receive token. Zero unidentified elements.](docs/screenshots/after-nvda.png)
 
 ---
 
@@ -106,9 +106,9 @@ Semantic Vision requires nothing from protocols. It deploys client-side, runs lo
 > *Private Beta Demo available upon request for strategic partners and investors.*
 >
 > To schedule a live demonstration via video call:
-> **[→ Contact via Twitter/X DM](https://twitter.com/SemanticVision)**
+> **[→ Contact via Twitter/X DM](https://x.com/VB_SemanticV)**
 >
-> *Demo overview: Screen recording showing NVDA navigating app.aave.com. First segment: without the extension — every button announces "Niezidentyfikowany", navigation is impossible. After Semantic Vision activates: all 14 buttons are correctly labeled, the Supply ETH modal opens with proper focus management, and the aria-live region confirms "14 elements labeled successfully."*
+> *Demo overview: Screen recording showing NVDA navigating app.aave.com. First segment: without the extension — buttons announce "Niezidentyfikowany", navigation is impossible. After Semantic Vision activates: buttons are correctly labeled, the modal opens with proper focus management, and the aria-live region confirms successful labeling.*
 
 ---
 
@@ -198,38 +198,42 @@ The core architecture is proven and working. Public deployment packaging — one
 ## Roadmap
 
 ### Stage 1 — Foundation ✅ *Now*
-- [x] Working MVP: Chrome Extension + Native Messaging + FastAPI + Groq
-- [x] Aave v3: 14/14 buttons labeled, 0 "Unidentified"
-- [x] Real-time labeling via MutationObserver
-- [x] Modal focus management
-- [x] 7-day offline cache
-- [x] NVDA aria-live announcements
-- [ ] Uniswap v3 testing
-- [ ] One-click start launcher
-- [ ] First grant applications submitted
+
+- ✅ Working MVP: Chrome Extension + Native Messaging + FastAPI + Groq
+- ✅ Aave v3: 14/14 buttons labeled, 0 "Unidentified"
+- ✅ Real-time labeling via MutationObserver
+- ✅ Modal focus management
+- ✅ 7-day offline cache
+- ✅ NVDA aria-live announcements
+- 🔲 Uniswap v3 testing
+- 🔲 One-click start launcher
+- 🔲 First grant applications submitted
 
 ### Stage 2 — First Funding Round 🎯
-- [ ] Secure first grant or seed funding
-- [ ] Assemble core team: AI Engineer, Product Manager, Accessibility QA
-- [ ] 10+ DeFi protocols covered
-- [ ] JAWS screen reader support
-- [ ] macOS + VoiceOver compatibility
-- [ ] Docker / easy-install public packaging
-- [ ] Chrome Web Store submission
+
+- 🔲 Secure first grant or seed funding
+- 🔲 Assemble core team: AI Engineer, Product Manager, Accessibility QA
+- 🔲 10+ DeFi protocols covered
+- 🔲 JAWS screen reader support
+- 🔲 macOS + VoiceOver compatibility
+- 🔲 Docker / easy-install public packaging
+- 🔲 Chrome Web Store submission
 
 ### Stage 3 — European Market
-- [ ] B2B SDK for protocols wanting native accessibility compliance
-- [ ] Real-time accessibility audit dashboard
-- [ ] Firefox extension
-- [ ] Full alignment with EU Accessibility Act 2025
-- [ ] 50+ protocols covered
+
+- 🔲 B2B SDK for protocols wanting native accessibility compliance
+- 🔲 Real-time accessibility audit dashboard
+- 🔲 Firefox extension
+- 🔲 Full alignment with EU Accessibility Act 2025
+- 🔲 50+ protocols covered
 
 ### Stage 4 — Global Accessibility Infrastructure
-- [ ] US market entry
-- [ ] Support for global capital market interfaces
-- [ ] Multi-language ARIA label generation
-- [ ] Community label verification layer
-- [ ] Public API for third-party accessibility tooling
+
+- 🔲 US market entry
+- 🔲 Support for global capital market interfaces
+- 🔲 Multi-language ARIA label generation
+- 🔲 Community label verification layer
+- 🔲 Public API for third-party accessibility tooling
 
 ---
 
@@ -298,6 +302,6 @@ MIT License — see [LICENSE](LICENSE) for details.
 
 *Because financial freedom shouldn't require perfect vision.*
 
-[GitHub: @Wislaw](https://github.com/Wislaw/semantic-vision) · [Twitter/X: DM open](https://x.com/VB_SemanticV)
+[GitHub: @Wislaw](https://github.com/Wislaw/Semantic-Vision-Public) · [Twitter/X: DM open](https://x.com/VB_SemanticV)
 
 </div>
